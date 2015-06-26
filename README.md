@@ -1,2 +1,10 @@
-# webTemplate
-A web template to get a basic 'Hello World' running through npm, bower and grunt
+# M&S Active
+
+
+To run:
+
+npm install
+
+bower install
+
+grunt serve or grunt serve:prod
