@@ -1,1 +1,62 @@
-//styling goes here - mobile first
+@import "compass/css3/font-face";
+@include font-face("msLondon", font-files("M&SLondon-Regular.ttf", "M&SLondon-Bold.ttf", "M&SLondon-Italic.ttf", "M&SLondon-Light.ttf", "M&SLondon-BoldItalic.ttf", "M&SLondon-LightItalic.ttf"));
+@include font-face("msLeeds", font-files("M&SLeeds-Bold.ttf", "M&SLeeds-Light.ttf", "M&SLeeds-BoldItalic.ttf", "M&SLeeds-LightItalic.ttf"));
+
+@font-face {
+    font-family: "msLondon";
+    src: url('../fonts/M&SLondon-Regular.ttf');
+}
+@font-face {
+    font-family: "msLondon";
+    font-weight: bold;
+    src: url('../fonts/M&SLondon-Bold.ttf');
+}
+@font-face {
+    font-family: "msLondon";
+    font-style: italic;
+    src: url('../fonts/M&SLondon-Italic.ttf');
+}
+@font-face {
+    font-family: "msLondon";
+    font-weight: lighter;
+    src: url('../fonts/M&SLondon-Light.ttf');
+}
+@font-face {
+    font-family: "msLondon";
+    font-style: italic;
+    font-weight: bold;
+    src: url('../fonts/M&SLondon-BoldItalic.ttf');
+}
+@font-face {
+    font-family: "msLondon";
+    font-style: italic;
+    font-weight: lighter;
+    src: url('../fonts/M&SLondon-LightItalic.ttf');
+}
+@font-face {
+    font-family: "msLeeds";
+    font-weight: bold;
+    src: url('../fonts/M&SLeeds-Bold.ttf');
+}
+@font-face {
+    font-family: "msLeeds";
+    font-weight: lighter;
+    src: url('../fonts/M&SLeeds-Light.ttf');
+}
+@font-face {
+    font-family: "msLeeds";
+    font-style: italic;
+    font-weight: bold;
+    src: url('../fonts/M&SLeeds-BoldItalic.ttf');
+}
+@font-face {
+    font-family: "msLeeds";
+    font-style: italic;
+    font-weight: lighter;
+    src: url('../fonts/M&SLeeds-LightItalic.ttf');
+}
+
+body {
+    font-family: msLondon;
+    padding: 12px;
+}
